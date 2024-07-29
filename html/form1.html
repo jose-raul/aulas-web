@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exemplo de Formulários com Datalist</title>
+</head>
+<body>
+    <h1>Exemplos de Elementos de Formulário</h1>
+
+    <form action="/submit" method="post">
+        <label for="text">Texto:</label>
+        <input type="text" id="text" name="text"><br><br>
+
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="tel">Telefone:</label>
+        <input type="tel" id="tel" name="tel"><br><br>
+
+        <label for="url">URL:</label>
+        <input type="url" id="url" name="url"><br><br>
+
+        <label for="number">Número:</label>
+        <input type="number" id="number" name="number" min="1" max="10"><br><br>
+
+        <label for="range">Faixa:</label>
+        <input type="range" id="range" name="range" min="1" max="100"><br><br>
+
+        <label for="date">Data:</label>
+        <input type="date" id="date" name="date"><br><br>
+
+        <label for="time">Hora:</label>
+        <input type="time" id="time" name="time"><br><br>
+
+        <label for="color">Cor:</label>
+        <input type="color" id="color" name="color"><br><br>
+
+        <label for="file">Arquivo:</label>
+        <input type="file" id="file" name="file"><br><br>
+
+        <label for="datalist">Datalist:</label>
+        <input list="browsers" id="datalist" name="datalist">
+        <datalist id="browsers">
+            <option value="Chrome">
+            <option value="Firefox">
+            <option value="Safari">
+            <option value="Opera">
+            <option value="Edge">
+        </datalist><br><br>
+
+        <label for="textarea">Textarea:</label><br>
+        <textarea id="textarea" name="textarea" rows="4" cols="50"></textarea><br><br>
+
+        <label>Radio:</label><br>
+        <input type="radio" id="radio1" name="radio" value="1">
+        <label for="radio1">Opção 1</label><br>
+        <input type="radio" id="radio2" name="radio" value="2">
+        <label for="radio2">Opção 2</label><br><br>
+
+        <label>Checkbox:</label><br>
+        <input type="checkbox" id="checkbox1" name="checkbox1">
+        <label for="checkbox1">Opção 1</label><br>
+        <input type="checkbox" id="checkbox2" name="checkbox2">
+        <label for="checkbox2">Opção 2</label><br><br>
+
+        <label for="select">Select:</label>
+        <select id="select" name="select">
+            <option value="opcao1">Opção 1</option>
+            <option value="opcao2">Opção 2</option>
+            <option value="opcao3">Opção 3</option>
+        </select><br><br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Redefinir">
+    </form>
+
+</body>
+</html>
