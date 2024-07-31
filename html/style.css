@@ -1,54 +1,13 @@
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background-color: #fff;
-  margin: 0;
+div, div h1 {
+  background-color: red;
+  height: 300px;
+  width: 100px;
+  padding: 30px;
+  margin: 30px;
+  align-content: center;
+}
+div h1 {
+  color: aqua;
 }
 
-.olympic-rings {
-  display: flex;
-  flex-wrap: wrap;
-  width: 220px;
-  position: relative;
-}
-
-.ring {
-  width: 80px;
-  height: 80px;
-  border: 10px solid;
-  border-radius: 50%;
-  margin: 10px;
-  position: absolute;
-}
-
-.blue {
-  border-color: #0085C7;
-  top: 0;
-  left: 0;
-}
-
-.black {
-  border-color: #000;
-  top: 0;
-  left: 90px;
-}
-
-.red {
-  border-color: #DF0024;
-  top: 0;
-  left: 180px;
-}
-
-.yellow {
-  border-color: #F4C300;
-  top: 50px;
-  left: 45px;
-}
-
-.green {
-  border-color: #009F3D;
-  top: 50px;
-  left: 135px;
-}
+/*# sourceMappingURL=style.css.map */
